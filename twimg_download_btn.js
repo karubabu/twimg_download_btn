@@ -1,7 +1,7 @@
 (function (){
 
-    var originalURL=location.href.match("(.*/[^\?#;/]+).*:+.*$")[1]+":orig";
-    var fileName = location.pathname.match(".*/([^\?#;/]+).*:+.*$")[1];
+    var originalURL=location.href.match("(.*/[^\?#;/:]+).*$")[1]+":orig";
+    var fileName = location.pathname.match(".*/([^\?#;/:]+).*$")[1];
     console.log("name:" + originalURL);
     console.log("name:" + fileName);
 
